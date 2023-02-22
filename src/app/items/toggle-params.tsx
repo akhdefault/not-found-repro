@@ -12,7 +12,7 @@ export default function ToggleParams() {
     } else {
       router.push("/items?search=xxx");
     }
-    router.refresh();
+    // router.refresh(); - does not help either
   }
 
   return (
